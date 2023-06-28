@@ -11,7 +11,7 @@ body {
     color: white;
     padding: 1em 15%;
     justify-content: space-between;
-
+    font-size: 18px;
 }
 
 .navigation {
@@ -33,18 +33,20 @@ body {
     margin-left: auto;
     font-size: 18px;
     color: #E5E7EB;
+    flex-shrink: 0;
 }
 
 .container {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 50px;
     margin-bottom: 50px;
     flex-wrap: wrap;
 }
 
 .hero {
-    width: 50%;
+    max-width: 600px;
 }
 
 .hero>.main-text {
@@ -103,6 +105,9 @@ img {
     border: 3px solid #3882F6;
     padding: 2rem;
     border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .logo>img {
@@ -112,9 +117,9 @@ img {
 
 
 .title {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: bolder;
-    line-height: 100px;
+    line-height: 50px;
     text-align: center;
 }
 
@@ -129,7 +134,7 @@ img {
     background: #E5E7EB;
     padding: 1em 20%;
     color: #1F2937;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: lighter;
 }
 
@@ -142,7 +147,7 @@ sub {
 
 /*****/
 .section_four {
-    padding: 5rem 15rem;
+    padding: 1em 10%;
     color: #F9FAF8;
     display: flex;
     justify-content: center;
